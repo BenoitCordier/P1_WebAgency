@@ -1,0 +1,123 @@
+/* Media Queries */
+
+@media all and (min-width: 992px) and (max-width: 1199px)
+{
+
+#logo
+{
+	display: flex;
+	margin-left: 10px;
+}
+
+.pusher
+{
+	width: 100%;
+	height: 8em;
+}
+
+.pusher_special1
+{
+	width: 100%;
+	height: 8em;
+}
+
+.pusher_special2
+{
+	width: 100%;
+	height: 1em;
+	background-color: rgb(245,245,245);
+}
+
+#banner_image img
+{
+	width: 100%;
+	height: auto;
+}
+
+#banner_description
+{
+	font-size: 1em;
+	min-width: 25%;
+	max-width: 50%;
+	position: absolute;
+	text-align: left;
+	top: 30%;
+	left: 10%;
+}
+
+h1
+{
+	margin: 0;
+	font-family: 'roboto_bold';
+	font-weight: bold;
+	font-size: 2em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#banner_description p
+{
+	font-size: 1em;
+}
+
+.button_info
+{
+    position: absolute;
+    width: 6em;
+    height: 1.5em;
+    padding-top: 0.3em;
+    font-size: 1em;
+}
+
+.heading
+{
+	margin: 2em auto;
+}
+
+.heading hr
+{
+	z-index: 1;
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	top: 0.2em;
+}
+
+.heading .fa-circle
+{
+	margin-left: 2px;
+}
+
+.main_feature
+{
+	margin-left: 3em;
+}
+
+.service2
+{
+	margin-left: -1em;
+}
+
+.text_service .fa-circle
+{
+	left: 37.1em;
+}
+
+#navigation_bar2 i
+{
+	padding-top: 0.9em;
+}
+
+.image_portfolio
+{
+	margin: 2em;
+}
+
+.form
+{
+	width: 30%;
+	top: 10%;
+	right: 10%;
+}
+
+}

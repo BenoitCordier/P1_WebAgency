@@ -1,0 +1,155 @@
+/* Media Queries */
+
+@media all and (min-width: 768px) and (max-width: 991px)
+{
+
+#logo
+{
+	display: flex;
+	margin-left: 10px;
+}
+
+#navigation_bar1
+{
+	display: flex;
+	flex-direction: row-reverse;
+	height: auto;
+}
+
+#navigation_bar1 ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#navigation_bar1 li
+{
+	font-size: 1em;
+	padding: 5px 10px 5px 5px;
+}
+
+#navigation_bar1 li:hover
+{
+    font-weight: bold;
+    border-right: 2px solid rgb(92,173,211);
+    border-top: 0px;
+}
+
+.pusher
+{
+	width: 100%;
+	height: 8em;
+}
+
+.pusher_special1
+{
+	width: 100%;
+	height: 8em;
+}
+
+.pusher_special2
+{
+	width: 100%;
+	height: 3em;
+	background-color: rgb(245,245,245);
+}
+
+#banner_description
+{
+	font-size: 1em;
+	min-width: 25%;
+	max-width: 100%;
+	position: absolute;
+	text-align: left;
+	top: 10%;
+	left: 10%;
+}
+
+h1
+{
+	margin: 0;
+	font-family: 'roboto_bold';
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#banner_description p
+{
+	font-size: 1em;
+}
+
+.button_info
+{
+    position: absolute;
+    width: 7em;
+    height: 1.8em;
+    padding-top: 0.3em;
+    font-size: 1em;
+}
+
+.heading
+{
+	margin: 1em auto;
+}
+
+.heading i
+{
+	z-index: 2;
+	color: rgb(92,173,211);
+	position: absolute;
+	left: 44%;
+}
+
+.heading hr
+{
+	width: 50%;
+	left: 23%;
+}
+
+.heading h2
+{
+    font-size: 2em;
+}
+
+.heading .fa-circle
+{
+	margin-right: 2px;
+}
+
+.service1
+{
+	flex-direction: column;
+}
+
+.service1 img
+{
+	display: block;
+    margin-left: 2em;
+    max-width: 80%;
+}
+
+.text_service .fa-circle
+{
+	left: 8.3em;
+}
+
+#navigation_bar2 i
+{
+	padding-top: 0.9em;
+}
+
+.form
+{
+	width: 40%;
+	top: 10%;
+	right: 10%;
+}
+
+}
